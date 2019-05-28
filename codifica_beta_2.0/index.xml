@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "myTEI.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="teiHeader">
+        <fileDesc>
+            <titleStmt>
+                <title type="sub" xml:id="titolo">Progetto</title>
+                <respStmt>
+                    <resp>Trascritto da</resp>
+                    <name xml:id="RB"><forename>Rocco</forename>
+                        <surname>Biondi</surname><pc>,</pc></name>
+                    <name xml:id="FT"><forename>Federico</forename>
+                        <surname>Talarico</surname></name>
+                </respStmt>
+                <respStmt>
+                    <resp><lb />Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti del Corso di Laurea in Informatica Umanistica, Corso di Codifica
+                    di Testi <orgName ref="#UNIPI"> Università di Pisa </orgName>
+                    <date>2019</date>
+                </edition>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto<pc>,</pc></name>
+                    <name xml:id="RBFT">Rocco Biondi e Federico Talarico</name>
+                </respStmt>
+                <respStmt>
+                    <resp><lb />Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp><lb />Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt xml:id="publicationStmt0">
+                <publisher><orgName ref="#UNIPI"> Unipi </orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI"> Università di
+                            Pisa </orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc xml:id="none">
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Cartolina_1.xml">
+        <xi:fallback/>
+    </xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Cartolina_2.xml">
+        <xi:fallback/>
+    </xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Cartolina_3.xml">
+        <xi:fallback/>
+    </xi:include>
+</teiCorpus>
