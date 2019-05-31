@@ -4,13 +4,13 @@ Progetto finale di codifica dei testi di **Biondi** - **Talarico** (mat. **54723
 La codifica è basata sulle linee guida TEI nella versione P5.
 
 Moduli TEI utilizzati e inclusi nella DTD:
-- Analysis;
-- Certainty;
-- Core;
-- Corpus;
-- Figures;
-- Header;
-- MsDescription;
-- NamesDates;
-- TextStructure;
+- Analysis
+- Certainty
+- Core
+- Corpus
+- Figures
+- Header
+- MsDescription
+- NamesDates
+- TextStructure
 - Transcr
