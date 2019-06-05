@@ -5,7 +5,7 @@
    <xsl:template match="/tei:teiCorpus">
       <html>
          <head>
-            <title>Progetto</title>
+            <title>Progetto di Codifica dei Testi</title>
             <link href="css.css" rel="stylesheet" type="text/css"/>
          </head>
          <body>
@@ -155,12 +155,6 @@
             </b>
             <xsl:apply-templates/>
             <br/>
-         </xsl:when>
-         <xsl:when test="@when='19170903' or @when='19170716' or @when='19130815' ">
-            <b>
-               <xsl:text>Data di scrittura della cartolina: </xsl:text>
-            </b>
-            <xsl:apply-templates/>
          </xsl:when>
          <xsl:otherwise>
             <xsl:apply-templates/>

@@ -6,8 +6,7 @@
         <fileDesc>
             <titleStmt xml:id="titleStmt3">
                 <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
-                <title type="sub">Donna sdraiata con mazzo di rose - Edizione digitale
-                    diplomatico-interpretativa </title>
+                <title type="sub">Donna sdraiata con mazzo di rose - Edizione Digitale </title>
                 <!-- TRASCRITTORE nome e cognome-->
                 <respStmt>
                     <resp>Trascritto da</resp>
@@ -75,9 +74,9 @@
                     tra il 1911 e il 1918. Tuttavia non poossiamo affermare con certezza né
                     l'inizio, né il termine della corrispondenza tra le due parti dunque non
                     sappiamo se siano scritte prima o dopo l'intervallo di tempo appena citato. </note>
-                <note n="3.3"> Sul retro della cartolina sono stati apposti francobollo e un timbro,
-                    il primo apposto al momento della scrittura del messaggio da parte del mittente,
-                    mentre il secondo nel momento della spedizione da parte del'ente di logistica.
+                <note n="3.3"> Sul retro della cartolina sono stati apposti un francobollo e un timbro,
+                    il primo dei quali al momento della scrittura del messaggio da parte del mittente;
+                    il secondo nel momento della spedizione da parte del'ente di logistica.
                 </note>
             </notesStmt>
             <sourceDesc xml:id="sourceDesc3">
@@ -85,8 +84,7 @@
                     <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
                         non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
                         registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
-                    <title xml:id="tit3" type="custom" resp="#ES">[Donna sdraiata con mazzo di
-                        rose]</title>
+                    <title xml:id="tit3" type="custom" resp="#ES">Donna con le rose</title>
                     <author ref="#GC">Giovannino</author>
                     <date when="19170903">03/09/1917</date>
                 </bibl>
@@ -187,12 +185,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <persName ref="#GC"><forename>Giovanni</forename> <surname>Coliola</surname></persName>
                     <placeName ref="MO">Modena</placeName>
                     <date type="writing" when="19170903">03/09/1917</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#OT">Oliva Turtura</persName>
+                    <persName ref="#OT"><forename>Oliva</forename> <surname>Turtura</surname></persName>
                     <placeName ref="#RV">Ravenna</placeName>
                 </correspAction>
             </correspDesc>
@@ -301,7 +299,7 @@
                         <address>
                             <addrLine>Gent Sig.na</addrLine>
                             <addrLine>
-                                <persName ref="OT">Oliva Turtura</persName>
+                                <persName ref="OT"><forename>Oliva</forename> <surname>Turtura</surname></persName>
                             </addrLine>
                             <addrLine>Via Girolamo Rogli 58</addrLine>
                             <addrLine>

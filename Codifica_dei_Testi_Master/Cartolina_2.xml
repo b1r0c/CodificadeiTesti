@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt xml:id="titleStmt2">
                 <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
-                <title type="sub">Donna in Posa - Edizione digitale diplomatico-interpretativa </title>
+                <title type="sub">Donna in Posa - Edizione Digitale</title>
                 <!-- TRASCRITTORE nome e cognome-->
                 <respStmt>
                     <resp>Transcription by</resp>
@@ -72,9 +72,9 @@
                     tra il 1911 e il 1918. Tuttavia non poossiamo affermare con certezza né
                     l'inizio, né il termine della corrispondenza tra le due parti dunque non
                     sappiamo se siano scritte prima o dopo l'intervallo di tempo appena citato. </note>
-                <note n="2.3"> Sul retro della cartolina sono stati apposti francobollo e un timbro,
-                    il primo apposto al momento della scrittura del messaggio da parte del mittente,
-                    mentre il secondo nel momento della spedizione da parte del'ente di logistica.
+                <note n="2.3"> Sul retro della cartolina sono stati apposti un francobollo e un timbro,
+                    il primo dei quali al momento della scrittura del messaggio da parte del mittente;
+                    il secondo nel momento della spedizione da parte del'ente di logistica.
                 </note>
             </notesStmt>
             <sourceDesc xml:id="sourceDesc2">
@@ -82,7 +82,7 @@
                     <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
                         non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
                         registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
-                    <title xml:id="tit2" type="custom" resp="#ES">[Donna in posa]</title>
+                    <title xml:id="tit2" type="custom" resp="#ES">Ritratto</title>
                     <author ref="#GC">Giovannino</author>
                     <date when="19170716">16/7/1917</date>
                 </bibl>
@@ -200,7 +200,7 @@
                 </keywords>
             </textClass>
             <langUsage>
-                <language ident="it-IT">La usata per la codifica è l'italiano</language>
+                <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -214,10 +214,10 @@
                     <head>
                         <title xml:id="titolo2">Ritratto di una donna in posa</title>
                     </head>
-                    <figDesc>L'immagine descrive una donna dalla carnagione olivastra, con occhi
+                    <figDesc>L'immagine ritrae una donna dalla carnagione olivastra, con occhi
                         marroni e capelli mossi, avovlta in un delicato drappo rosso che le cinge il
                         capo. La figura è sinuosa e il fazzoletto che le pende sulla spalla fino a
-                        raggiungere metà figura, aiuta a dare movimento al dipinto. In basso a
+                        raggiungere metà figura, aiuta a dare movimento all'illustrazione. In basso a
                         destra infine troviamo la firma dell'autore "T. Corbella" </figDesc>
                 </figure>
             </div>
@@ -302,9 +302,18 @@
                     </p>
                     <p xml:id="address2">
                         <address>
-                            <addrLine>Gent.mo Sig.re</addrLine>
                             <addrLine>
-                                <persName ref="GT">Giuseppe Turtura</persName>
+                                <choice>
+                                    <abbr>Gent<pc>.</pc>mo</abbr>
+                                    <expan>Gentilissimo</expan>
+                                </choice>
+                                    <choice>
+                                        <abbr>Sig<pc>.</pc>re</abbr>
+                                        <expan>Signore</expan>
+                                    </choice>
+                            </addrLine>
+                            <addrLine>
+                                <persName ref="GT"><forename>Giuseppe </forename> <surname>Turtura</surname></persName>
                             </addrLine>
                             <addrLine>Via Girolamo Rogli 58</addrLine>
                             <addrLine>

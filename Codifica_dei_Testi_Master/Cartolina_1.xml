@@ -7,8 +7,7 @@
          <titleStmt xml:id="titleStmt1">
             <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
             <title>
-               <foreign xml:lang="fra">Drame au Harem</foreign> - Edizione digitale
-               diplomatico-interpretativa </title>
+               <foreign xml:lang="fra">Drame au Harem</foreign> - Edizione digitale </title>
             <!-- TRASCRITTORE nome e cognome-->
             <respStmt>
                <resp>Transcription by</resp>
@@ -178,7 +177,7 @@
                <date type="writing" when="19130815">15/8/1913</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#OT">Oliva Turtura</persName>
+               <persName ref="#OT"><forename>Oliva</forename><surname>Turtura</surname></persName>
                <placeName ref="#MB">Monza</placeName>
             </correspAction>
          </correspDesc>
@@ -204,7 +203,7 @@
                <head>
                   <title xml:id="titolo1">Drame au Harem</title>
                </head>
-               <figDesc> L'illustrazione vede protagoniste due donne: una accasciata su un seggio,
+               <figDesc> L'illustrazione, in bianco e nero, vede protagoniste due donne: una accasciata su un seggio,
                   l'altra stramazzata al suolo quasi totalmente nuda. Nella stanza dell'Harem regna
                   il caos, suggerendo il fatto che possa trattarsi di un omicidio o di uno
                   sventurato evento. L'architettura che incornicia la scena è ricca, con presenza di
@@ -329,7 +328,7 @@
                <p xml:id="address1">
                   <address>
                      <addrLine>
-                        <persName ref="#OT">Oliva Turtura</persName>
+                        <persName ref="#OT"><forename>Oliva </forename><surname>Turtura</surname></persName>
                      </addrLine>
                      <addrLine>Via Cavour 12</addrLine>
                      <addrLine> Presso <persName>Cibecchini</persName>

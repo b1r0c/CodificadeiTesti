@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
-                <title type="sub" xml:id="titolo">Progetto</title>
+                <title type="sub" xml:id="titolo">Progetto di Codifica dei Testi</title>
                 <!-- TRASCRITTORE nome e cognome-->
                 <respStmt>
                     <resp>Trascritto da</resp>
